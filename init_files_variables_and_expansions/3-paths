@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($(echo $z | grep -o "[[:alpha:]]:" | wc -l)+1))
+echo $(($(echo $PATH | grep -o "[[:alpha:]]:" | wc -l)+1))
